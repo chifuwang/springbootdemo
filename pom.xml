@@ -14,7 +14,7 @@
 	<name>springbootdemo</name>
 	<description>Demo project for Spring Boot</description>
 
-	<!-- demo -->
+	<!-- demo webhook -->
 
 	<properties>
 		<java.version>11</java.version>
