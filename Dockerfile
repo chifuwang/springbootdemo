@@ -1,4 +1,4 @@
-FROM openjdk:11-windowsservercore
+FROM privaterepo:8082/aisopenjdk11:latest
 
 LABEL maintainer="chi-fu.wang@utsouthwestern.edu"
 
