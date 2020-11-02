@@ -8,7 +8,7 @@ public class HomeController {
 
 	@RequestMapping("/") 
 	public String hello() {
-		return "Hello Docker World Dummy Change!";
+		return "Hello Docker!";
 	}
 	
 }
