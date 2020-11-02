@@ -2,6 +2,10 @@ pipeline {
     agent any
     stages {
         stage("clone code"){
+            //enable remote triggers
+            script {
+                properties([pipelineTriggers([pollSCM('* * * * *')])])
+            }
             steps{
                git branch: 'main', url: 'https://github.com/chifuwang/springbootdemo.git'
             }
