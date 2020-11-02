@@ -23,7 +23,7 @@ pipeline {
         }
         stage("run container"){
             steps{
-              powershell 'docker run -d --name springbootdemo -p 28080:8080 privaterepo:8082/springbootdemo'
+              powershell 'docker run -d --name springbootdemo -p 28080:8080 privaterepo:18082/springbootdemo'
             }
         }
         stage("push Docker image to private registry"){
