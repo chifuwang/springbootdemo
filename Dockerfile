@@ -1,4 +1,4 @@
-FROM privaterepo:18082/aisopenjdk11:latest
+FROM docker1.swmed.org:18082/aisopenjdk11:latest
 
 LABEL maintainer="chi-fu.wang@utsouthwestern.edu"
 
