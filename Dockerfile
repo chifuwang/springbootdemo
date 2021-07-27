@@ -1,4 +1,4 @@
-FROM docker1.swmed.org:18082/aisopenjdk11:latest
+FROM docker1.swmed.org:18082/aisopenjdk:11.0.11-windowsservercore
 
 LABEL maintainer="chi-fu.wang@utsouthwestern.edu"
 
