@@ -1,4 +1,4 @@
-FROM docker1.swmed.org:18082/aisopenjdk:11-jre-nanoserver-1809
+FROM aisdkdev1.swmed.edu:18082/aisopenjdk:11-jre-nanoserver-1809
 
 LABEL maintainer="chi-fu.wang@utsouthwestern.edu"
 
